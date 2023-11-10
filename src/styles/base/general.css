@@ -1,0 +1,7 @@
+.icon-standard {
+    @apply bg-no-repeat bg-center
+}
+
+.bg-standard {
+    @apply bg-no-repeat bg-cover bg-center
+}
