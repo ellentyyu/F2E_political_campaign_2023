@@ -1,7 +1,27 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 .icon-standard {
     @apply bg-no-repeat bg-center
 }
 
 .bg-standard {
     @apply bg-no-repeat bg-cover bg-center
+}
+
+
+/* header */
+header {
+    i.fb {
+        background-image: url('../../assets/icon-media-fb.svg');
+    }
+
+    i.ig {
+        background-image: url('../../assets/icon-media-ig.svg');
+    }
+
+    i.yt {
+        background-image: url('../../assets/icon-media-yt.svg');
+    }
 }
