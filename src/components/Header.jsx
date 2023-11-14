@@ -7,11 +7,12 @@ const Header = () => {
             <div className="container mx-auto">
                 <nav className="flex justify-between items-center px-6 py-3 bg-white rounded-2xl">
                     <a className="flex items-center" href="#">
-                        <img
+                        {/* <img
                             className="w-[34px] h-[28px] md:w-[52px] md:h-[43px] mr-2 icon-standard"
                             src={logo}
                             alt="campaign logo"
-                        />
+                        /> */}
+                        <i className="w-[34px] h-[28px] md:w-[52px] md:h-[43px] mr-2 icon-standard bg-logo"></i>
                         <h1 className="text-xl md:text-2xl font-bold text-coral-700">
                             喵立翰 Miao Li-Han
                         </h1>

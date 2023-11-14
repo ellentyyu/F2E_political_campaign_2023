@@ -1,15 +1,28 @@
+@font-face{
+    font-family: 'Mantou Sans'; 
+    src: url('../font/MantouSans-Regular.ttf');
+}
+
 body {
     font-family: 'Inter', sans-serif;
 }
 
 .icon-standard {
-    @apply bg-no-repeat bg-center
+    @apply bg-no-repeat bg-center bg-cover
 }
 
-.bg-standard {
-    @apply bg-no-repeat bg-cover bg-center
+.section-title {
+    font-family: theme('fontFamily.mantou');
+    font-size: 52px;
+    line-height: 105%;
+    letter-spacing: 2px;
+    text-align: center;
+    background-image: theme('backgroundImage.gradient-primary');
+    background-clip: text;
+    background-repeat: repeat; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
 }
-
 
 /* header */
 header {
