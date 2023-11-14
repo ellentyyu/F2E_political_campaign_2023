@@ -17,6 +17,9 @@ export default {
             },
             fontFamily: {
                 'mantou': 'Mantou Sans'
+            },
+            boxShadow: {
+                'primary': '0px 4px 12px 0px rgba(163, 180, 203, 0.20)'
             }
         },
     },
