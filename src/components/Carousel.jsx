@@ -11,22 +11,7 @@ const sloganList = [
     '喵的未來，人的希望',
     '為喵星人，護台灣！',
     '從喵的眼中，看見台灣',
-    '喵的未來，人的希望',
-    '為喵星人，護台灣！',
-    '從喵的眼中，看見台灣',
-    '喵的未來，人的希望',
-    '為喵星人，護台灣！',
-    '從喵的眼中，看見台灣',
-    '喵的未來，人的希望',
-    '為喵星人，護台灣！',
-    '從喵的眼中，看見台灣',
-    '喵的未來，人的希望',
-    '為喵星人，護台灣！',
-    '從喵的眼中，看見台灣',
-    '喵的未來，人的希望',
-    '為喵星人，護台灣！',
-    '從喵的眼中，看見台灣',
-    '喵的未來，人的希望',
+    '喵的未來，人的希望'
 ];
 
 const dummyData = [
@@ -69,21 +54,26 @@ const dummyData = [
 
 const Carousel = () => {
     return (
-        <Swiper
-            modules={[FreeMode, Autoplay]}
-            freeMode={{enabled: true, sticky: true}}
-            autoplay={{delay: 1}}
-            loop={true}
-            speed={3000}
-            slidesPerView={4}
-            spaceBetween={8}
-        >
-            {sloganList.map((slogan, idx) => (
-                    <SwiperSlide key={slogan + idx}>
-                        <p>{slogan}</p>
-                    </SwiperSlide>
-                ))}
-        </Swiper>
+        <div className="carousel">
+            <Swiper
+                modules={[FreeMode, Autoplay]}
+                freeMode={{enabled: true, sticky: true}}
+                autoplay={{delay: 1, disableOnInteraction: false}}
+                allowTouchMove={false}
+                loop={true}
+                speed={6000}
+                slidesPerView={'auto'}
+                spaceBetween={24}
+                className="bg-coral-700"
+            >
+                {sloganList.map((slogan, idx) => (
+                        <SwiperSlide key={slogan + idx}>
+                            <p className="carousel__text">{slogan}</p>
+                        </SwiperSlide>
+                    ))}
+            </Swiper>
+        </div>
+
     );
 };
 

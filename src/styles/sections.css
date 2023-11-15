@@ -1,0 +1,45 @@
+/* header */
+header {
+    i.fb {
+        background-image: url('../../assets/icon-media-fb.svg');
+    }
+
+    i.ig {
+        background-image: url('../../assets/icon-media-ig.svg');
+    }
+
+    i.yt {
+        background-image: url('../../assets/icon-media-yt.svg');
+    }
+}
+
+/* banner */
+.banner {
+    &__img {
+        width: 327px;
+        height: 255px;
+
+        @media screen(md) {
+            width: 343px;
+        }
+
+        @media screen(lg) {
+            width: 723px;
+            height: 535px;
+        }
+    }
+}
+
+.carousel { 
+    .swiper-free-mode>.swiper-wrapper {
+        transition-timing-function: linear;
+    }
+
+    .swiper-slide {
+        width: auto;
+    }
+
+    &__text {
+        @apply font-mantou text-[40px] text-white leading-[105%] lg:text-[64px] lg:tracking-[2px]
+    }
+}

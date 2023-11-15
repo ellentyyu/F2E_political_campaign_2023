@@ -19,6 +19,23 @@ body {
     font-family: theme('fontFamily.mantou');
     font-size: 52px;
     line-height: 105%;
+    text-align: center;
+    background-image: theme('backgroundImage.gradient-primary');
+    background-clip: text;
+    background-repeat: repeat; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+
+    @media screen(lg) {
+        font-size: 64px;
+        letter-spacing: 2px;
+    }
+}
+
+.section-title-lg {
+    font-family: theme('fontFamily.mantou');
+    font-size: 52px;
+    line-height: 105%;
     letter-spacing: 2px;
     text-align: center;
     background-image: theme('backgroundImage.gradient-primary');
@@ -26,45 +43,17 @@ body {
     background-repeat: repeat; 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
+
+    @media screen(lg) {
+        font-size: 96px;
+    }
 }
 
 .section-subtitle {
     @apply px-4 py-3 rounded-2xl bg-slate-700 text-white font-bold text-base leading-[150%]
 }
 
-.section-subtitle-main {
+.section-subtitle-lg {
     @apply px-4 py-3 rounded-2xl bg-slate-700 text-white font-bold text-xl lg:text-[28px] leading-[150%]
 }
 
-/* header */
-header {
-    i.fb {
-        background-image: url('../../assets/icon-media-fb.svg');
-    }
-
-    i.ig {
-        background-image: url('../../assets/icon-media-ig.svg');
-    }
-
-    i.yt {
-        background-image: url('../../assets/icon-media-yt.svg');
-    }
-}
-
-/* banner */
-
-.banner {
-    &__img {
-        width: 327px;
-        height: 255px;
-
-        @media screen(md) {
-            width: 343px;
-        }
-
-        @media screen(lg) {
-            width: 723px;
-            height: 535px;
-        }
-    }
-}
