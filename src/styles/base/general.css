@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    color: #334155;
 }
 
 .icon-standard {
@@ -18,7 +19,7 @@ body {
 .section-title {
     font-family: theme('fontFamily.mantou');
     font-size: 52px;
-    line-height: 105%;
+    line-height: 75px;
     text-align: center;
     background-image: theme('backgroundImage.gradient-primary');
     background-clip: text;
