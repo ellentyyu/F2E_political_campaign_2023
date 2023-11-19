@@ -1,15 +1,15 @@
 /* header */
 header {
     i.fb {
-        background-image: url('../../assets/icon-media-fb.svg');
+        background-image: url('../assets/icon-media-fb.svg');
     }
 
     i.ig {
-        background-image: url('../../assets/icon-media-ig.svg');
+        background-image: url('../assets/icon-media-ig.svg');
     }
 
     i.yt {
-        background-image: url('../../assets/icon-media-yt.svg');
+        background-image: url('../assets/icon-media-yt.svg');
     }
 }
 
