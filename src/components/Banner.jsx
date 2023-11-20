@@ -2,7 +2,7 @@ import imgCandidate from '../assets/img-banner-miao.png';
 
 const Banner = () => {
   return (
-    <div className="banner px-4">
+    <div className="banner px-4 sm:px-0">
         <div className="container mx-auto">
             <div className='flex flex-col justify-center items-center'>
                 <div className='pt-8 pb-4'>

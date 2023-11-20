@@ -3,7 +3,7 @@ import imgMain from '../assets/img-main-view.png';
 
 const MainView = () => {
     return (
-        <div className="px-6 py-16 bg-coral-400">
+        <div className="px-6 py-16 lg:py-24 bg-coral-400">
             <div className="container mx-auto">
                 <div className="lg:flex">
                     <div className="lg:w-1/2 px-6 py-10 lg:pr-16 bg-white rounded-t-3xl lg:rounded-tr-none lg:rounded-bl-3xl">
