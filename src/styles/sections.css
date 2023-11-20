@@ -15,8 +15,6 @@ header {
 
 /* banner */
 .banner {
-    padding-top: 100px;
-    
     &__img {
         width: 327px;
         height: 255px;
